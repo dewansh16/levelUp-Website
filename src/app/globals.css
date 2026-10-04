@@ -421,7 +421,8 @@ figure {
   margin: 0 auto;
   padding: 0 24px;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  column-gap: 16px;
 }
 
 .stat {
@@ -443,6 +444,13 @@ figure {
   letter-spacing: 0.08em;
   text-transform: uppercase;
   color: #9c9a95;
+}
+
+.stat-note {
+  font-family: var(--cond);
+  font-size: 12px;
+  letter-spacing: 0.14em;
+  color: #6f6d69;
 }
 
 /* Marquee */

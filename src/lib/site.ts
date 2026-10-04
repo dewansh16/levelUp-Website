@@ -19,10 +19,11 @@ export const navLinks = [
   { href: "#gallery", label: "Gallery" },
 ];
 
-export const stats = [
+export const stats: { value: string; label: string; note?: string }[] = [
   { value: "3", label: "Centres in Korba" },
   { value: "7+", label: "Disciplines taught" },
-  { value: "29", label: "State medals, 2025" },
+  { value: "500+", label: "State medals" },
+  { value: "149+", label: "National medals", note: "SGFI · DAV · JNV · KV · CBSE" },
   { value: "1", label: "World C'ship silver" },
 ];
 

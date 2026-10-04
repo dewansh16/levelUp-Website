@@ -77,6 +77,7 @@ export default function Home() {
               <div key={s.label} className="stat">
                 <span className="stat-value">{s.value}</span>
                 <span className="stat-label">{s.label}</span>
+                {s.note && <span className="stat-note">{s.note}</span>}
               </div>
             ))}
           </div>

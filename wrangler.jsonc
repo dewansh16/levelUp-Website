@@ -1,0 +1,9 @@
+// Cloudflare Workers config: serve the static export in `out/` (built by `npm run build`).
+{
+  "name": "levelup-website",
+  "compatibility_date": "2025-09-01",
+  "assets": {
+    "directory": "./out",
+    "not_found_handling": "404-page"
+  }
+}
